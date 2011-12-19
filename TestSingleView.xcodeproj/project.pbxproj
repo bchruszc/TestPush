@@ -38,21 +38,21 @@
 		8F2E7567149ED82900A56311 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8F2E7569149ED82900A56311 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F2E756B149ED82900A56311 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8F2E756F149ED82900A56311 /* TestSingleView-Info.plist */ = {isa = PBXFileReference; path = "TestSingleView-Info.plist"; sourceTree = "<group>"; };
+		8F2E756F149ED82900A56311 /* TestSingleView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSingleView-Info.plist"; sourceTree = "<group>"; };
 		8F2E7571149ED82900A56311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F2E7573149ED82900A56311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F2E7575149ED82900A56311 /* TestSingleView-Prefix.pch */ = {isa = PBXFileReference; path = "TestSingleView-Prefix.pch"; sourceTree = "<group>"; };
-		8F2E7576149ED82900A56311 /* xAppDelegate.h */ = {isa = PBXFileReference; path = xAppDelegate.h; sourceTree = "<group>"; };
+		8F2E7575149ED82900A56311 /* TestSingleView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSingleView-Prefix.pch"; sourceTree = "<group>"; };
+		8F2E7576149ED82900A56311 /* xAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xAppDelegate.h; sourceTree = "<group>"; };
 		8F2E7577149ED82900A56311 /* xAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xAppDelegate.m; sourceTree = "<group>"; };
 		8F2E757A149ED82900A56311 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8F2E757D149ED82900A56311 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8F2E757F149ED82900A56311 /* xViewController.h */ = {isa = PBXFileReference; path = xViewController.h; sourceTree = "<group>"; };
+		8F2E757F149ED82900A56311 /* xViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xViewController.h; sourceTree = "<group>"; };
 		8F2E7580149ED82900A56311 /* xViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xViewController.m; sourceTree = "<group>"; };
 		8F2E7587149ED82900A56311 /* TestSingleViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSingleViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2E7588149ED82900A56311 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F2E7590149ED82900A56311 /* TestSingleViewTests-Info.plist */ = {isa = PBXFileReference; path = "TestSingleViewTests-Info.plist"; sourceTree = "<group>"; };
+		8F2E7590149ED82900A56311 /* TestSingleViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSingleViewTests-Info.plist"; sourceTree = "<group>"; };
 		8F2E7592149ED82900A56311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8F2E7594149ED82900A56311 /* TestSingleViewTests.h */ = {isa = PBXFileReference; path = TestSingleViewTests.h; sourceTree = "<group>"; };
+		8F2E7594149ED82900A56311 /* TestSingleViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSingleViewTests.h; sourceTree = "<group>"; };
 		8F2E7595149ED82900A56311 /* TestSingleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSingleViewTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +83,7 @@
 		8F2E7558149ED82900A56311 = {
 			isa = PBXGroup;
 			children = (
+				8FD7B65D149FAA9200B8AC84 /* New Group */,
 				8F2E756D149ED82900A56311 /* TestSingleView */,
 				8F2E758E149ED82900A56311 /* TestSingleViewTests */,
 				8F2E7566149ED82900A56311 /* Frameworks */,
@@ -152,6 +153,13 @@
 				8F2E7591149ED82900A56311 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD7B65D149FAA9200B8AC84 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +451,7 @@
 				8F2E759B149ED82900A56311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F2E759C149ED82900A56311 /* Build configuration list for PBXNativeTarget "TestSingleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +460,7 @@
 				8F2E759E149ED82900A56311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
